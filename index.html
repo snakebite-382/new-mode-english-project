@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Do Schools Kill Creativity | Ethos Pathos and Logos</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        /* Modern CSS Reset with Poppins */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            line-height: 1.5;
+            min-height: 100vh;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .poppins-bold {
+            font-family: "Poppins", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        img,
+        picture,
+        video,
+        canvas,
+        svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        input,
+        button,
+        textarea,
+        select {
+            font: inherit;
+            font-family: "Poppins", sans-serif;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body class="poppins-regular">
+    <div id="title">
+        <h1>The Ethos Pathos and Logos of Sir Ken Robinson's Ted talk</h1>
+    </div>
+    <div id="body">
+        <div id="ted-talk">
+            <div id="full-video-desc">
+                <h2>The TED Talk Itself</h2>
+                <h3>
+                    In his 20 minute TED Talk Ken Robinson discusses the ways in which
+                    education actually stifles creativity in an engaging, entertaining,
+                    and educational manner. Give it a watch!
+                </h3>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iG9CE55wbtY?si=nA0AP7QTan8jr2nr"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="full-video"></iframe>
+        </div>
+        <div id="epl-intro">
+            <h2 class="align-center">The focus of my analysis</h2>
+            <div id="intros">
+                <div id="ethos-intro" class="intro align-center">
+                    <h2>Ethos</h2>
+                    <div id="ethos-snippet">Ethos is an appeal to the speakers authority on the subject</div>
+                    <div id="ethos-toggle" class="expand-button"></div>
+                    <div id="ethos-expanded" class="hidden">When a speaker uses ethos they are presenting their
+                        credibility on the subject. They may give examples of work experience, awards, education, or
+                        other relevant life experience to convince the listener they know what they're talking about.
+                    </div>
+                </div>
+                <div id="pathos-intro" class="intro align-center">
+                    <h2>Pathos</h2>
+                    <div id="pathos-snippet">Pathos is an appeal to the audiences emotions</div>
+                    <div id="pathos-toggle" class="expand-button"></div>
+                    <div id="pathos-expanded" class="hidden">When a speaker uses pathos they are trying to illicit an
+                        emotional response from the listener. They may speak about relatable experiences, play on our
+                        sympathies with a sad tale, or try to make us joyful with an uplifting one.</div>
+                </div>
+                <div id="logos-intro" class="intro align-center">
+                    <h2>Logos</h2>
+                    <div id="logos-snippet">Logos is an appeal to logic, reason, or fact</div>
+                    <div id="logos-toggle" class="expand-button"></div>
+                    <div id="logos-expanded" class="hidden">When a speaker employs logos they are arguing with fact and
+                        reason. A speaker might make a logical argument or present some statistical data. Logos shows
+                        the listener the facts to support the speakers argument.</div>
+                </div>
+            </div>
+        </div>
+        <div id="transition">
+            <h2 class="align-center">The Analyses</h2>
+        </div>
+        <div class="content" id="content-0">
+            <div>
+                <h2 id="ethos-label">Ethos</h2>
+            </div>
+            <ul>
+                <li>He has experience as a college professor</li>
+                <li>He uses personal experience when discussing the topic to show he has an intimate understanding</li>
+
+            </ul>
+        </div>
+        <div class="content" id="content-1">
+            <ul id="pathos-content">
+                <li>He uses humor to set the mood with his audience</li>
+                <li>He shares relatable annecdotes to connect to his audience</li>
+                <li>He shares an emotional story featuring a dancer named Gillian who was encouraged to dance despite
+                    her school not being supportive</li>
+            </ul>
+            <div>
+                <h2 id="pathos-label">Pathos</h2>
+            </div>
+        </div>
+        <div class="content" id="content-2">
+            <div>
+                <h2 id="logos-label">Logos</h2>
+            </div>
+            <ul id="logos-content">
+                <li>He focuses on sharing examples of his argument playing</li>
+                <li>He reasons with the crowd to his conclusion, by showing both how schools are stifling creativity and
+                    the consequences of that</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

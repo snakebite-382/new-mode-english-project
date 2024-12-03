@@ -1,0 +1,105 @@
+#title {
+  background: #728370;
+  color: #dee0df;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title h1 {
+  border-bottom: 5px solid #4b514a;
+  padding: 15px 50px;
+  width: fit-content;
+}
+
+#body {
+  background-color: #b2d4b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #282828;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+#body div {
+  padding-bottom: 35px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#full-video-desc h3 {
+  font-weight: normal;
+}
+
+#epl-intro #intros {
+  display: flex;
+  width: 100%;
+}
+
+.expand-button {
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.intro {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+#transition {
+  height: fit-content;
+}
+
+#ted-talk {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px !important;
+}
+
+#full-video-desc,
+#full-video {
+  width: 40vw;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content div,
+.content ul {
+  width: 20vw;
+  padding: 50px 0px;
+}
+
+#pathos-label {
+  text-align: right;
+}
+
+.content ul {
+  list-style: disc;
+}
+
+#content-0,
+#content-2,
+#ethos-intro,
+#logos-intro {
+  background-color: #90b493;
+}
